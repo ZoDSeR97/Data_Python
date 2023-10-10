@@ -9,12 +9,15 @@ package = [
     "scipy", 
     "scikit-learn", 
     "jupyter", 
-    "pandas", 
-    "theano", 
-    "tensorflow", 
+    "pandas",
+    "numba",
+    "quantecon",
+    "jax",
+    "tensorflow",
     "torch", 
     "torchvision", 
     "torchaudio",
+    "theano",
     "virtualenv"
 ]
 
