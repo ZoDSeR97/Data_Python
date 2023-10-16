@@ -6,11 +6,9 @@
 # where j decrement to k
 
 def solution(i, j, k):
-    # This solution is memory intensive 
-    # Not suitable as the gap between 3 var is too huge
-    sumI = sum([i + x for x in range(abs(j-i))])
-    sumJ = sum([j - x for x in range(abs(k-j))])
-    return sumI+sumJ+k
+    sumIJ = sum(range(i, j)) # [i, j)
+    sumJK = sum(range(j, k, -1)) # (k, j]
+    return sumIJ+sumJK+k
 
 def math_solution(i, j, k):
     # Sum from i to j
