@@ -22,6 +22,8 @@ package = [
     "openai",  # OpenAI API wrapper
     "xformers",  # Optimization for training LLMs
     "peft",  # Parameter-efficient fine-tuning
+    "vllm",  # Vision & Language models
+    "google-genail",  # Google AI models
 ]
 
 platform = {
